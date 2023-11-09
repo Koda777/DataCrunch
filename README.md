@@ -8,7 +8,7 @@ Bienvenue au DataCrunch 2023 Hackathon, un événement passionnant où vous pouv
 
 - [Règles](#regles)
 - [Sujet](#sujet)
-- [Aides](#help)
+- [Aides](#aides)
 
 ## Règles <a name="regles"></a>:
 
@@ -203,10 +203,21 @@ Pour lire le contenu d'un fichier à partir de l'entrée standard en utilisant P
    ```bash
    cat map.txt | python3 ex01.py
    ```
-ex01.py:
-  ```python3
-import sys
+    ex01.py:
+  
+    ```python3
+    import sys
+    
+    contenu = sys.stdin.read()
+    ```
+---
 
-contenu = sys.stdin.read()
+## 🚀 Bonne Chance !
 
-  ```
+Nous souhaitons à tous les participants du DataCrunch Hackathon 2023 la meilleure des chances ! Que votre créativité et vos compétences en résolution de problèmes vous guident tout au long de cet événement. Amusez-vous bien en relevant les défis et en développant des solutions innovantes.
+
+N'oubliez pas de rester positif, de collaborer et d'apprendre de cette expérience enrichissante. Que les meilleures idées gagnent !
+
+Bon hackaton !
+
+---
