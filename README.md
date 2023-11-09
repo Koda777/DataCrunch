@@ -43,11 +43,11 @@ _Exemple :_
 
 ### 2. Recherche de mots clés
 
-**Défi :** Identifier et compter le nombre d'occurrences de mots clés spécifiques dans un texte donné.
+**Défi :** Identifier et compter le nombre d'occurrences des mots-clés spécifiques passés en argument dans un texte donné.
 
 _Exemple :_
 
-**Entrée : `Le hackathon DataCrunch est une compétition amusante pour les programmeurs. DataCrunch est génial.`
+**Entrée :** `Le hackathon DataCrunch est une compétition amusante pour les programmeurs. DataCrunch est génial.`
 
 **Argument 1 :** `DataCrunch`
 
@@ -55,13 +55,13 @@ _Exemple :_
 
 ### 3. Analyse de fréquence des caractères
 
-**Défi :** Trouver le caractère le plus fréquent dans une chaîne de caractères et afficher sa fréquence.
+**Défi :** Trouver le caractère passé en argument le plus fréquent dans une chaîne de caractères et afficher sa fréquence.
 
 _Exemple :_
 
 **Entrée :** `analyse de données`
 
-**Argument 1: ** `a`
+**Argument 1 :** `a`
 
 **Sortie :** `'a': 4`
 
@@ -108,7 +108,7 @@ _Exemple :_
 
 ### 7. Recherche de texte dans une chaîne
 
-**Défi :** Trouver un texte spécifique dans une chaîne de caractères et afficher ses positions.
+**Défi :** Trouver un texte spécifique passé en argument dans une chaîne de caractères et afficher ses positions.
 
 _Exemple :_
 
@@ -123,6 +123,8 @@ _Exemple :_
 **Entrée :**
 
 `Epitech et la programmation c'est trop cool et trop bien! Et j'adore la programmation.`
+
+**Argument 1 :** `Programmation`
 
 **Sortie :** `'Programmation': [3, 13]`
 
@@ -190,7 +192,7 @@ _Exemple :_
       ***
        *
 ```
-## Help <a name="help"></a>:
+## Help <a name="aides"></a>:
 
 ### Lecture d'un fichier depuis l'entrée standard
 
