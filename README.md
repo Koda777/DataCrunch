@@ -1,4 +1,4 @@
-# DataCrunch Hackathon
+# Hackathon DataCrunch
 
 ## Thème : Analyse de Données et Algorithmes
 
