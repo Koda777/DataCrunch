@@ -212,6 +212,53 @@ Pour lire le contenu d'un fichier à partir de l'entrée standard en utilisant P
     
     contenu = sys.stdin.read()
     ```
+
+    Voici un exemple en c:
+    ```bash
+     cat map.txt | ./a.out
+    ```
+
+    main.c:
+     ```c
+      #include <stdio.h>
+      #include <stdlib.h>
+      
+      char *read_line() {
+        size_t buffer_size = 1024;
+        char *buffer = (char *)malloc(buffer_size);
+        size_t input_length = 0;
+        int c = 0;
+      
+        if (buffer == NULL) {
+          fprintf(stderr, "Error allocating memory\n");
+          return NULL;
+        }
+      
+        while ((c = getchar()) != EOF) {
+          buffer[input_length++] = (char)c;
+          if (input_length >= buffer_size) {
+            buffer_size *= 2;
+            buffer = (char *)realloc(buffer, buffer_size);
+            if (buffer == NULL) {
+              fprintf(stderr, "Error allocating memory\n");
+              return NULL;
+            }
+          }
+        }
+        buffer[input_length] = '\0';
+        return buffer;
+      }
+      
+      int main() {
+        char *line = read_line();
+        if (line == NULL) {
+          fprintf(stderr, "Error reading line\n");
+          return 1;
+        }
+        free(line);
+        return 0;
+      }
+     ```
 ---
 
 ## 🚀 Bonne Chance !
