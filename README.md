@@ -4,7 +4,32 @@
 
 Bienvenue au DataCrunch 2023 Hackathon, un événement passionnant où vous pouvez mettre à l'épreuve vos compétences en résolution de problèmes et en programmation. Vous devrez relever une série de 10 défis, allant du plus simple au plus complexe, tous liés à l'analyse de données et à la conception d'algorithmes efficaces.
 
-## Défis :
+## Sections
+
+- [Règles](#regles)
+- [Sujet](#sujet)
+- [Exemple](#exemple)
+
+## Règles <a name="regles"></a>:
+
+Avant de commencer, assurez-vous de comprendre les règles du hackathon. Voici quelques règles de base à suivre :
+
+1. Les participants doivent travailler individuellement.
+2. Les participants sont tenus de respecter les règles de conduite appropriée ou pas mais belek.
+
+### Langages de Programmation
+
+- Tous les langages de programmation sont autorisés. Vous êtes libre de choisir le langage qui vous convient le mieux pour résoudre les défis.
+
+### Ressources en Ligne
+
+- L'utilisation d'Internet est autorisée. Vous pouvez effectuer des recherches en ligne, consulter la documentation, et accéder à des ressources utiles pour résoudre les défis.
+
+### Assistance de Chat GPT
+
+- Bien que l'utilisation d'Internet soit autorisée, nous déconseillons fortement l'utilisation de chatbots comme GPT (tels que ChatGPT) pour obtenir des réponses directes aux défis. Le but du hackathon est de tester vos compétences en résolution de problèmes et en programmation.
+
+## Sujet <a name="sujet"></a>:
 
 ### 1. Tri de nombres
 
@@ -22,9 +47,9 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** Texte : "Le hackathon DataCrunch est une compétition amusante pour les programmeurs. DataCrunch est génial."
+**Entrée : `Le hackathon DataCrunch est une compétition amusante pour les programmeurs. DataCrunch est génial.`
 
-**Mots clés :** `DataCrunch`
+**Argument 1 :** `DataCrunch`
 
 **Sortie :** `'DataCrunch': 2`
 
@@ -34,7 +59,9 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** Texte : "analyse de données"
+**Entrée :** `analyse de données`
+
+**Argument 1: ** `a`
 
 **Sortie :** `'a': 4`
 
@@ -49,11 +76,11 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** Mot de passe : "MonP@ssw0rd12"
+**Entrée :** `MonP@ssw0rd12`
 
 **Sortie :** `SUCCESS`
 
-**Entrée :** Mot de passe : "1234abcdEFG"
+**Entrée :** `1234abcdEFG`
 
 **Sortie :** `FAILURE`
 
@@ -65,9 +92,9 @@ Dans ce défi, vous devrez créer un algorithme de compression de texte qui pren
 
 _Exemple :_
 
-**Entrée :** Texte : "aaaaabbbcccddeeeefff"
+**Entrée :** `aaaaabbbcccddeeeefff`
 
-**Sortie :** "a5b3c3d2e4f3"
+**Sortie :** `a5b3c3d2e4f3`
 
 ### 6. Conversion binaire-décimal
 
@@ -75,9 +102,9 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** Nombre binaire : `1011`
+**Entrée :** `1011`
 
-**Sortie :** Nombre décimal : `11`
+**Sortie :** `11`
 
 ### 7. Recherche de texte dans une chaîne
 
@@ -85,17 +112,17 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** Chaîne de caractères :
+**Entrée :**
 
-`"Epitech et la programmation c'est trop cool et trop bien!"`
+`Epitech et la programmation c'est trop cool et trop bien!`
 
-**Texte à rechercher :** `Programmation`
+**Argument 1 :** `Programmation`
 
 **Sortie :** `'Programmation': [3]`
 
-**Entrée :** Chaîne de caractères :
+**Entrée :**
 
-`"Epitech et la programmation c'est trop cool et trop bien! Et j'adore la programmation."`
+`Epitech et la programmation c'est trop cool et trop bien! Et j'adore la programmation.`
 
 **Sortie :** `'Programmation': [3, 13]`
 
@@ -105,7 +132,7 @@ _Exemple :_
 
 _Exemple :_
 
-**Entrée :** [1, 20]
+**Entrée :** `[1, 20]`
 
 **Sortie :** Nombres premiers : `[2, 3, 5, 7, 11, 13, 17, 19]`
 
