@@ -8,7 +8,7 @@ Bienvenue au DataCrunch 2023 Hackathon, un événement passionnant où vous pouv
 
 - [Règles](#regles)
 - [Sujet](#sujet)
-- [Exemple](#exemple)
+- [Aides](#help)
 
 ## Règles <a name="regles"></a>:
 
@@ -27,8 +27,8 @@ Avant de commencer, assurez-vous de comprendre les règles du hackathon. Voici q
 
 ### Assistance de Chat GPT
 
-- Bien que l'utilisation d'Internet soit autorisée, nous déconseillons fortement l'utilisation de chatbots comme GPT (tels que ChatGPT) pour obtenir des réponses directes aux défis. Le but du hackathon est de tester vos compétences en résolution de problèmes et en programmation.
-
+- Bien que l'utilisation d'Internet soit autorisée, nous déconseillons fortement l'utilisation de chatbots comme GPT (tels que ChatGPT) pour obtenir des réponses directes aux défis.
+  
 ## Sujet <a name="sujet"></a>:
 
 ### 1. Tri de nombres
@@ -190,3 +190,23 @@ _Exemple :_
       ***
        *
 ```
+## Help <a name="help"></a>:
+
+### Lecture d'un fichier depuis l'entrée standard
+
+Pour lire le contenu d'un fichier à partir de l'entrée standard en utilisant Python, suivez ces étapes :
+
+1. Assurez-vous que le fichier que vous souhaitez lire (par exemple, map.txt) existe dans le répertoire actuel.
+
+2. Utilisez la commande `cat` (sur les systèmes Unix/Linux) pour afficher le contenu du fichier et rediriger la sortie vers votre script Python. Voici comment vous pouvez le faire :
+
+   ```bash
+   cat map.txt | python3 ex01.py
+   ```
+ex01.py:
+  ```python3
+import sys
+
+contenu = sys.stdin.read()
+
+  ```
