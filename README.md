@@ -63,7 +63,7 @@ _Exemple :_
 
 **Argument 1 :** `a`
 
-**Sortie :** `'a': 4`
+**Sortie :** `'a': 2`
 
 ### 4. Validation de mots de passe
 
